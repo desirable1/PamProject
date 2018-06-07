@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home study PHASE</title>
+	<link rel="stylesheet" type="text/css" href="animals.css">
+</head>
+<body>
+		<p><em>ANIMALS UNLEASHED</em></p>
+		<button onclick="animalLst()"> Start </button>
+
+
+<script type="text/javascript">
+	function animalLst(){
+		// This displays immediately the user clicks start button !
+		alert("Welcome to Booust Community");
+	const animals = ["ape", "antelope", "bird", "butterfly", "bee", "cat", "chicken", "caterpillar", "cockroach", "dog", "duck", "elephant", "eagle", "goat", "gorilla", "hyena", "leopard", "lion", "monkey", "mouse", "mosquito", "owl", "parrot", "pigeon", "pig", "rabbit", "shark", "snail", "snake", "whale", "zebra"];
+	// The user selects his/her favorite animal. Depending on the input..
+	var person = prompt("What is the name of your favorite animal", "zebra");
+	if (animals.includes(person) == true){
+		alert("You just guessed your favorite animal on the list");
+	} else {
+		alert ("Please, could you try another? not on the list !");
+	}
+	}
+</script>
+</body>
+</html>
